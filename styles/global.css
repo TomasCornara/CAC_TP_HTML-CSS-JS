@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.linkNav {
+    display: inline;
+    margin: auto;
+    border: 2px solid black;;
+}
+
+.tarjeta {
+    border: 2px solid black; 
+    border-radius: 2%;
+    max-width: 500px; 
+    max-height: 500px;
+    margin: 40px auto 50px;
+}
+
+.tarjeta p {
+    margin: 10px 30px 10px;
+}
+
+#imagen1 {
+    display: block;
+    width: 60%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px auto 10px;
+}
+
+#desBienvenida {
+    margin: auto 15% auto;
+}
