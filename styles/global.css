@@ -1,16 +1,21 @@
 * {
     font-family: 'Roboto', sans-serif;
-    --colorPrincial: #CCCCFF; 
-    --colorSecundario: #CC33FF;
+    --colorPrincial: #0077b5; 
+    --colorSecundario: #6ab04c;
+    --colorTerciario: #ffd300;
+    box-sizing: border-box;
 }
 
 body {
     text-align: center;
 }
 
-header {
-    min-height: 150px;
+header, footer {
+    height: 150px;
     background-color: var(--colorPrincial);
+    box-shadow: 0 0 5px whitesmoke;
+    border: 1px solid #F2F2F2; 
+    padding: 5%;
 }
 
 .linkNav { /*barra de navegacion*/
@@ -19,19 +24,29 @@ header {
     border: 2px solid black;
 }
 
-.tarjeta { /*tarjetas de los destinos*/
-    border: 2px solid var(--colorPrincial); 
+.linkNav a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+}
+
+.tarjeta { /*tarjetas de los destinos*/ 
     border-radius: 2%;
     max-width: 500px; 
     max-height: 500px;
     margin: 40px auto 50px;
-    box-shadow: 0 0 5px var(--colorPrincial);
+    box-shadow: 0 0 5px whitesmoke;
+    border: 1px solid #F2F2F2; 
 }
 
 .tarjeta a { /*titulos de las tarjetas*/
     text-decoration: none;
     color: var(--colorSecundario) ;
     font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 
 .tarjeta p { /*Descripcion de las tarjetas*/
