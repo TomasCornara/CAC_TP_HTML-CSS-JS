@@ -110,11 +110,11 @@ header h1 {
     z-index: 5;
 }
 
-main{
+#tarjetas {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .main_title{
@@ -137,8 +137,8 @@ main{
 
 
 .tarjeta { /*tarjetas de los destinos*/
-    width:70%;
-    height:70%;
+    width:20%;
+    height: auto;
     padding: .5rem; 
     margin: 1.5rem 0;
     border-radius: 2%;
@@ -255,8 +255,19 @@ footer {
     font-size: 1.3rem;
 }
 
-  @media (max-width: 695px) {
+  @media (max-width: 700px) {
     #des_Bienvenida{
         display: none;
     }
+
+    #tarjetas {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tarjeta {
+        width: 70%;
+    }
+
   }  
