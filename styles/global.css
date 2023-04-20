@@ -149,8 +149,8 @@ main{
     border: 1px solid rgb(243, 235, 235); 
 }
 
-.tarjeta:hover {
-    transform: scale(1.1);
+.tarjeta img:hover {
+    transform: scale(1.05);
 }
 
 
@@ -173,9 +173,10 @@ main{
 }
 
 .imgtarjeta { /*Imagenes de las tarjetas*/
+    --withTarjetas: 60%;
     display: block;
-    width: 60%;
-    height: 33%;
+    max-width: 80%;
+    height: auto;
     border-radius: 15px;
     margin: 10px auto 10px;
     object-fit: cover;
