@@ -217,7 +217,7 @@ footer {
     bottom: 0;
 }
 
-#subFooter li {
+#subFooter a {
     display: inline;
     grid-template-columns: auto;
     align-items: center;
@@ -225,6 +225,7 @@ footer {
     margin: 1rem;
     color: white;
 }
+
 
 #redes {
     padding: 1rem;
