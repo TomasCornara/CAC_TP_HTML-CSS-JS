@@ -113,7 +113,7 @@ header h1 {
 #tarjetas {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: self-start;
     justify-content: space-around;
 }
 
@@ -145,12 +145,7 @@ header h1 {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     border: 1px solid rgb(243, 235, 235); 
-}
-
-.tarjeta img:hover {
-    transform: scale(1.05);
 }
 
 
@@ -160,6 +155,8 @@ header h1 {
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
 }
 
 .tarjeta p { /*Descripcion de las tarjetas*/
@@ -182,6 +179,9 @@ header h1 {
     object-fit: cover;
 }
 
+.tarjeta img:hover {
+    transform: scale(1.05);
+}
 .destinos:hover  {
     text-decoration: none;
     color: var(--colorTerciario);
@@ -197,19 +197,19 @@ header h1 {
 }
 
 footer {
-   
     background-color: var(--colorPrincial);
     box-shadow: 0 0 5px whitesmoke;
     border: 1px solid #F2F2F2;
     margin-top: 1rem;
     margin-bottom: 0;
+    bottom: 0;
 }
 
 #subFooter {
-    display: inline-block;;
-    justify-content: center;
-    text-align: center;
-    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: .5rem .5rem .5rem .5rem;
     background-color: #000000;
     min-width: 100%;
     margin-bottom: 0px;
@@ -217,7 +217,7 @@ footer {
     bottom: 0;
 }
 
-#subFooter a {
+#subFooter li {
     display: inline;
     grid-template-columns: auto;
     align-items: center;
@@ -226,36 +226,37 @@ footer {
     color: white;
 }
 
+#subFooter a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px;
+    margin: 4px;
+}
 
 #redes {
     padding: 1rem;
     display: flex;
-    gap: 3rem;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 4.5rem;
     width: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#redes a {
-    margin: 0px 10px 0px 10px;
-    font-weight: bolder;
-    color: white;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
+#redes a {
+    text-decoration: none;
+    color: white;
+}
 
 #redes a:hover{
     color:rgb(10, 10, 1);
     font-size: 1.3rem;
 }
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     #des_Bienvenida{
         display: none;
     }
