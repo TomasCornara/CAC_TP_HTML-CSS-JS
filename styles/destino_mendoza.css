@@ -1,0 +1,37 @@
+
+.main_article_mza{
+    margin: 1rem;
+    margin-bottom: .5rem;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+} 
+
+
+.carousel-item h5{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.carousel-item p{
+    font-size: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
