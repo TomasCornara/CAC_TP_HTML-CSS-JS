@@ -138,13 +138,14 @@ header h1 {
 
 .tarjeta { /*tarjetas de los destinos*/
     width:20%;
-    height: auto;
+    height: 550px;
     padding: .5rem; 
     margin: 1.5rem 0;
     border-radius: 2%;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: self-end;
+    align-items: center;
     border: 1px solid rgb(243, 235, 235); 
 }
 
