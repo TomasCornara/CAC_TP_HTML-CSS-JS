@@ -110,11 +110,11 @@ header h1 {
     z-index: 5;
 }
 
-main{
+#tarjetas {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    align-items: self-start;
+    justify-content: space-around;
 }
 
 .main_title{
@@ -130,64 +130,87 @@ main{
     font-weight: bold;
 }
 
-.main_article_mza{
-    margin: 1rem;
-    margin-bottom: .5rem;
-    padding: 0;
+#des_Bienvenida { /*La descripcion que esta encima de las tarjetas*/
+    margin: auto 15% auto;
+    text-align: center;
+}
+
+
+.tarjeta { /*tarjetas de los destinos*/
+    width:20%;
+    height: 550px;
+    padding: .5rem; 
+    margin: 1.5rem 0;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-items: self-end;
+    align-items: center;
+    border: 1px solid rgb(243, 235, 235); 
+}
+
+
+.tarjeta a { /*titulos de las tarjetas*/
+    text-decoration: none;
+    color: var(--colorSecundario);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta p { /*Descripcion de las tarjetas*/
     width: 100%;
-    height: 100%;
+    margin: 10px 5px 10px;
     text-align: center;
     display: flex;
-    position: relative;
+    flex-direction: column;
     justify-content: center;
-    
-}
-/* Carusel */
-.carousel-item{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: 0;
-} 
-
-
-.carousel-item h5{
-    font-size: 2.5rem;
-    font-weight: bolder;
+    align-items: center;  
 }
 
-.carousel-item p{
-    font-size: 1rem;
-    font-weight: bold;
-    font-size: 20px;
+.imgtarjeta { /*Imagenes de las tarjetas*/
+    --withTarjetas: 60%;
+    display: block;
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+    margin: 10px auto 10px;
+    object-fit: cover;
 }
-.iframe_container{
-    display: inline-block;
-    grid-template-columns: 1fr 1fr;
-    max-width: 100%;
-    display: flex;
-    align-items: self-start;
+
+.tarjeta img:hover {
+    transform: scale(1.05);
+}
+.destinos:hover  {
+    text-decoration: none;
+    color: var(--colorTerciario);
+}
+
+.head h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+}
+
+.head h1:hover{
+    transform: scale(1.02);
 }
 
 footer {
-   
     background-color: var(--colorPrincial);
     box-shadow: 0 0 5px whitesmoke;
     border: 1px solid #F2F2F2;
     margin-top: 1rem;
     margin-bottom: 0;
+    bottom: 0;
 }
 
 #subFooter {
-    display: inline-block;;
-    justify-content: center;
-    text-align: center;
-    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: .5rem .5rem .5rem .5rem;
     background-color: #000000;
     min-width: 100%;
     margin-bottom: 0px;
@@ -204,12 +227,20 @@ footer {
     color: white;
 }
 
+#subFooter a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px;
+    margin: 4px;
+}
+
 #redes {
     padding: 1rem;
     display: flex;
-    gap: 3rem;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 4.5rem;
     width: 20%;
     margin-left: auto;
     margin-right: auto;
@@ -226,12 +257,20 @@ footer {
     font-size: 1.3rem;
 }
 
-
-
-  @media (max-width: 695px) {
+  @media (max-width: 900px) {
     #des_Bienvenida{
         display: none;
     }
+
+    #tarjetas {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tarjeta {
+        width: 70%;
+        height: auto;
+    }
+
   }  
-
-
