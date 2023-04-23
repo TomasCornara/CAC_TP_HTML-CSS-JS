@@ -36,6 +36,15 @@ header h1 {
     font-weight: bold;
 }
 
+.head h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+}
+
+.head h1:hover{
+    transform: scale(1.02);
+}
+
 
 /* menu */
 
@@ -188,14 +197,6 @@ header h1 {
     color: var(--colorTerciario);
 }
 
-.head h1 {
-    font-family: 'Gloria Hallelujah', cursive;
-    color: white;
-}
-
-.head h1:hover{
-    transform: scale(1.02);
-}
 
 footer {
     background-color: var(--colorPrincial);
