@@ -202,7 +202,6 @@ img {
     justify-content: center;
 }
 
-
 footer {
     background-color: var(--colorPrincial);
     box-shadow: 0 0 5px whitesmoke;
@@ -215,7 +214,7 @@ footer {
 #subFooter {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: .5rem .5rem .5rem .5rem;
     background-color: #000000;
     min-width: 100%;
@@ -226,7 +225,6 @@ footer {
 
 #subFooter li {
     display: inline;
-    grid-template-columns: auto;
     align-items: center;
     max-height: 1rem;
     margin: 1rem;
