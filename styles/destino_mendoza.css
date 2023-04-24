@@ -195,13 +195,6 @@ img {
     transform: scale(1.1);
 }
 
-.actividades{
-    padding: 1rem;
-    display: inline;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 footer {
     background-color: var(--colorPrincial);
     box-shadow: 0 0 5px whitesmoke;
@@ -217,10 +210,8 @@ footer {
     justify-content: space-evenly;
     padding: .5rem .5rem .5rem .5rem;
     background-color: #000000;
-    min-width: 100%;
-    margin-bottom: 0px;
     position: sticky;
-    bottom: 0;
+    padding-top: 1rem;
 }
 
 #subFooter li {
