@@ -1,0 +1,81 @@
+main {
+  padding: 2%;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.faq-container {
+  /*max-width: 610px;
+  min-width: 510;*/
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.faq-container > h1 {
+  font-size: 3em;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.faq {
+  margin-bottom: 30px;
+  width: 100%;
+  border: 1px solid rgb(243, 235, 235);
+  padding: 3rem;
+  border-radius: 2%;
+  max-width: 610px;
+  min-width: 510px;
+}
+
+.faq h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  border-bottom: 2px rgb(243, 235, 235) solid;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.faq p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .faq-container {
+    padding: 10px;
+    max-width: 90%;
+  }
+  
+  .faq {
+    min-width: 410px;
+  }
+  .faq h2 {
+    font-size: 20px;
+  }
+  
+  .faq p {
+    font-size: 16px;
+  }
+}
+
+.tarjeta {
+  width: 20%;
+  
+  
+  margin: 1.5rem 0;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid rgb(243, 235, 235);
+}
