@@ -1,0 +1,104 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    display: block;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #comentarios {
+    resize: none;
+  }
+
+  #nombre, #apellido, #telefono {
+    max-width: 400px;
+
+  }
+
+  #form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #izquierdo {
+    width: 30%;
+    min-width: 200px;
+  }
+
+  #derecho {
+    width: 20%;
+  }
+
+
+#seccionComentarios{
+    width: 75%;
+    max-width: 970px;
+    margin: auto;
+}
+
+#comentarios {
+    padding: 10px;
+}
+
+.btn-primary{
+    display: block;
+    margin: 10px auto 0;
+    width: 25%; /* ajustar el ancho según tus necesidades */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+}

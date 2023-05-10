@@ -32,6 +32,7 @@ main {
   border-radius: 2%;
   max-width: 610px;
   min-width: 510px;
+  min-height: 384px;
 }
 
 .faq h2 {
