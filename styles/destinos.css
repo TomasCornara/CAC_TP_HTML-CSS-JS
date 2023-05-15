@@ -86,7 +86,10 @@ main p{
     .carousel-inner img {
         height: auto;   
     }
-
+    .carousel-inner img {
+        height: 250px;
+        /* width: 100%;        */
+    }
 
 }
    

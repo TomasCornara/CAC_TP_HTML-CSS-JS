@@ -259,9 +259,8 @@ footer {
     font-size: 1.3rem;
 }
 
-
-  @media (max-width: 695px) {
+@media (max-width: 695px) {
     #des_Bienvenida{
         display: none;
     }
-  }  
+}  
