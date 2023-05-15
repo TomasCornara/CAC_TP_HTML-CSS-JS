@@ -50,6 +50,9 @@ main p{
     text-decoration: none;
 }
 
+.carousel-inner img {
+    height: 400px;       
+}
 .carousel-inner h3:hover{
     transform: scale(1.1);
 }
@@ -76,6 +79,10 @@ main p{
     
     .carousel-inner a{
         display: none;
+    }
+
+    .carousel-inner img {
+        height: auto;   
     }
 
 
