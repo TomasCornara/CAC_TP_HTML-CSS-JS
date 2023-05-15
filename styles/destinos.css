@@ -1,0 +1,84 @@
+* {
+    font-family: 'Roboto', 'sans-serif';
+    --colorPrincial: rgba(0, 119, 181, .9); 
+    --colorSecundario: #6ab04c;
+    --colorTerciario: rgba(255, 211, 0, .9);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+main h2{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+main p{
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*Carusel*/
+
+.iframe_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    margin: 1rem 1rem 1.5rem 1rem;
+    gap: .5rem;
+}
+
+.carousel-caption h3{
+    font-size: 2.5rem;
+}
+
+.carousel-inner a {
+    /* font-family: 'Gloria Hallelujah'; */
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+.carousel-inner h3:hover{
+    transform: scale(1.1);
+}
+
+  @media (max-width:676px) {
+    .iframe_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .main_title_mza {
+        font-size: 1.8rem ;
+       
+    }
+    
+  }
+   
+  @media (max-width:817px){
+    img {
+    height: 250px;
+    width: 250px;
+    }
+    
+    .carousel-inner a{
+        display: none;
+    }
+
+
+}
+   
+   
