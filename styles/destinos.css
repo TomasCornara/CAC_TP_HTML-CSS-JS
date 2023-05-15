@@ -48,6 +48,8 @@ main p{
     color: #fff;
     list-style: none;
     text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .carousel-inner img {
