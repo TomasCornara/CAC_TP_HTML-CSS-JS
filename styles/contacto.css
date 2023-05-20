@@ -3,51 +3,51 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 500px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #ccc;
-  }
-  
-  h1 {
+}
+
+h1 {
     text-align: center;
-  }
-  
-  form {
+}
+
+form {
     margin-top: 20px;
-  }
-  
-  .form-group {
+}
+
+.form-group {
     margin-bottom: 20px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="tel"],
-  select,
-  textarea {
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  .error-message {
+}
+
+.error-message {
     display: block;
     color: red;
     font-size: 14px;
     margin-top: 5px;
-  }
-  
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     display: block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -56,34 +56,36 @@ main {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
 
-  #comentarios {
+#comentarios {
     resize: none;
-  }
+}
 
-  #nombre, #apellido, #telefono {
+#nombre,
+#apellido,
+#telefono {
     max-width: 400px;
 
-  }
+}
 
-  #form{
+#form {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  }
+}
 
-  #izquierdo {
+#izquierdo {
     width: 30%;
     min-width: 200px;
-  }
+}
 
-  #derecho {
+#derecho {
     width: 20%;
-  }
+}
 
 
-#seccionComentarios{
+#seccionComentarios {
     width: 75%;
     max-width: 970px;
     margin: auto;
@@ -93,10 +95,11 @@ main {
     padding: 10px;
 }
 
-.btn-primary{
+.btn-primary {
     display: block;
     margin: 10px auto 0;
-    width: 25%; /* ajustar el ancho según tus necesidades */
+    width: 25%;
+    /* ajustar el ancho según tus necesidades */
     background-color: #007bff;
     color: white;
     border: none;

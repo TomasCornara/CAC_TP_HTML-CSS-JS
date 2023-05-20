@@ -13,9 +13,8 @@ body {
     max-width: 100%;
     text-align: center;
     min-height: 100vh;
-    margin: 0px;
+    margin: 0;
 }
-
 
 header {
     max-width: 100%;
@@ -37,7 +36,7 @@ header h1 {
     font-size: 2.5rem;
 }
 
-.head img{
+.head img {
     height: 100px;
     width: 500px;
 }
@@ -47,135 +46,122 @@ header h1 {
     color: white;
 }
 
-.head h1:hover{
+.head h1:hover {
     transform: scale(1.02);
 }
-
-/* menu */
 
 #menu {
     display: flex;
     align-items: center;
 }
+
+
 #menu ul {
-    list-style:none;
-    margin:0;
-    padding:0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-   /* enlaces del menu */
-   
 #menu ul a {
-    display:block;
-    color:#fff;
-    text-decoration:none;
-    font-weight:400;
-    font-size:18px;
-    padding:10px;
-    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform:uppercase;
-    letter-spacing:1px;
-}
-   
-   /* items del menu */
-   
-#menu ul li {
-    position:relative;
-    float:left;
-    margin:0;
-    padding:0;
-}
-   
-   /* efecto al pasar el ratón por los items del menu */
-   
-#menu ul li:hover {
-    background:#4a6ea8;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-   /* menu desplegable */
+#menu ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li:hover {
+    background: #4a6ea8;
+}
 
 #menu ul ul {
-    display:none;
-    position:absolute;
-    top:100%;
-    left:0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
     background: rgba(0, 119, 181, .9);
-    padding:0;
+    padding: 0;
 }
-   
-   /* items del menu desplegable */
-   
+
 #menu ul ul li {
-    float:none;
-    width:150px
+    float: none;
+    width: 150px;
 }
-   
-   /* items del menu desplegable al pasar el ratón */
-   
+
 #menu ul li:hover > ul {
-    display:block;
+    display: block;
     z-index: 5;
 }
 
-main{
+main {
+    min-height: 850px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.main_title{
-    font-size:2rem;
-    font-weight:bold;
-    margin:0;  
-    padding:1rem;
-    text-align:center;
-}
-
-.main_article_mza{
-    /* display: block; */
+.main_title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;  
     padding: 1rem;
-
+    text-align: center;
 }
 
-#des_Bienvenida { /*La descripcion que esta encima de las tarjetas*/
+.main_article_mza {
+    padding: 1rem;
+}
+
+#des_Bienvenida {
     margin: auto 15% auto;
     text-align: center;
 }
 
-#tarjetas{
-
+#tarjetas {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    align-items: self-start;
+    justify-content: space-around;
+    margin-top: 3.5%;
 } 
 
-.tarjeta { /*tarjetas de los destinos*/
-    width:70%;
-    height:70%;
+.tarjeta {
+    width: 20%;
+    height: 510px;
+    padding: .5rem; 
+    margin: 1.5rem 0;
+    border-radius: 2%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-items: self-end;
     align-items: center;
-    margin: 2rem;
-    border-radius: 2%;
     border: 1px solid rgb(243, 235, 235); 
+    min-width: 235px;
 }
 
-.tarjeta:hover {
-    transform: scale(1.1);
-}
-
-.tarjeta a { /*titulos de las tarjetas*/
+.tarjeta a {
     text-decoration: none;
-    color: rgb(3, 3, 15);
+    color: var(--colorSecundario);
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
 }
 
-.tarjeta > p { /*Descripcion de las tarjetas*/
+.tarjeta p {
     width: 100%;
     margin: 10px 5px 10px;
     text-align: center;
@@ -185,22 +171,22 @@ main{
     align-items: center;  
 }
 
-.imgtarjeta { /*Imagenes de las tarjetas*/
+.imgtarjeta {
+    --withTarjetas: 60%;
     display: block;
-    width: 70%;
-    height: 33%;
+    max-width: 80%;
+    height: auto;
     border-radius: 15px;
     margin: 10px auto 10px;
     object-fit: cover;
 }
 
-.destinos:hover  {
-    text-decoration: none;
-    color: var(--colorTerciario);
+.tarjeta:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 footer {
-   
     background-color: var(--colorPrincial);
     box-shadow: 0 0 5px whitesmoke;
     border: 1px solid #F2F2F2;
@@ -215,13 +201,15 @@ footer {
     justify-content: space-evenly;
     padding: .5rem .5rem .5rem .5rem;
     background-color: #000000;
+    min-width: 100%;
+    margin-bottom: 0px;
     position: sticky;
-    padding-top: 1rem;
+    bottom: 0;
 }
-
 
 #subFooter li {
     display: inline;
+    grid-template-columns: auto;
     align-items: center;
     max-height: 1rem;
     margin: 1rem;
@@ -234,8 +222,9 @@ footer {
     font-weight: bold;
     padding: 6px;
     margin: 4px;
+    color: white;
+    cursor: pointer;
 }
-
 
 #redes {
     padding: 1rem;
@@ -248,19 +237,35 @@ footer {
     margin-right: auto;
 }
 
-
 #redes a {
     text-decoration: none;
     color: white;
 }
 
-#redes a:hover{
-    color:rgb(10, 10, 1);
-    font-size: 1.3rem;
+#redes a:hover {
+    color: rgb(10, 10, 1);
+    /*font-size: 1.3rem;*/
 }
 
 @media (max-width: 695px) {
-    #des_Bienvenida{
+    #des_Bienvenida {
         display: none;
     }
 }  
+
+@media (max-width: 900px) {
+    #des_Bienvenida {
+        display: none;
+    }
+
+    #tarjetas {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tarjeta {
+        width: 70%;
+        height: auto;
+    }
+}
