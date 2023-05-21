@@ -189,7 +189,6 @@ main {
 footer {
     background-color: var(--colorPrincial);
     box-shadow: 0 0 5px whitesmoke;
-    border: 1px solid #F2F2F2;
     margin-top: 1rem;
     margin-bottom: 0;
     bottom: 0;
