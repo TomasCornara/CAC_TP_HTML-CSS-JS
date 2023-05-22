@@ -22,7 +22,7 @@ header {
     padding: 1.5rem .1rem;
     justify-content: space-between;
     position: sticky;
-    top: 0; 
+    /* top: 0;  */
     margin-bottom: 3px; 
     display: flex; 
     flex-wrap: wrap; 

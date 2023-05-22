@@ -9,11 +9,7 @@ createApp({
     components: {
 
         "sec_heder":{
-<<<<<<< HEAD
-            template: '<header> <section class="head"> <h1>Recorre Argentina</h1> </section> <!-- start nav --> <nav id="menu"> <!-- start menu --> <ul> <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li> <li><a href="#">Destinos</a> <!-- start menu desplegable --> <ul> <li><a href="#">Córdoba</a></li> <li><a href="destino_santafe.html">Santa Fe</a></li> <li><a href="destino_mendoza.html">Mendoza</a></li> <li><a href="destino_salta.html">Salta</a></li> </ul> <!-- end menu desplegable --> </li> <li><a href="about.html">FAQ</a></li> <li><a href="contacto.html">Contacto</a></li> </ul> <!-- end menu --> </nav> <!-- end nav --> </header>'
-=======
             template: '<header> <section class="head"> <a id="tituloPag" href="index.html"><h1>Recorre Argentina</h1></a> </section> <!-- start nav --> <nav id="menu"> <!-- start menu --> <ul> <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li> <li><a href="#">Destinos</a> <!-- start menu desplegable --> <ul> <li><a href="#">Córdoba</a></li> <li><a href="#">Santa Fe</a></li> <li><a href="destino_mendoza.html">Mendoza</a></li> <li><a href="destino_salta.html">Salta</a></li> </ul> <!-- end menu desplegable --> </li> <li><a href="about.html">FAQ</a></li> <li><a href="contacto.html">Contacto</a></li> </ul> <!-- end menu --> </nav> <!-- end nav --> </header>'
->>>>>>> daf2893c280f0f1e2e0f7fbd830aa97c794f3e9c
         },
 
     }
