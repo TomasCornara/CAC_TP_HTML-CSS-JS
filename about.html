@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turismo Andino</title>
     
+    <link rel="stylesheet" href="./styles/destinos.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/about.css">
-    <link rel="stylesheet" href="./styles/destinos.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,100 +20,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
 </head>
 <body>
-    <header>
-        <section class="head">
-            <h1>Recorre Argentina</h1>
-        </section>
-        <!-- start nav -->
-        
-        <nav id="menu">
-            <!-- start menu -->
-            <ul>
-            <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
-            <li><a href="#">Destinos</a>
-            <!-- start menu desplegable -->
-            <ul>
-            <li><a href="#">Córdoba</a></li>
-            <li><a href="#">Santa Fe</a></li>
-            <li><a href="destino_mendoza.html">Mendoza</a></li>
-            <li><a href="destino_salta.html">Salta</a></li>
-            </ul>
-            <!-- end menu desplegable -->
-            </li>
-            <li><a href="about.html">FAQ</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <!-- end menu -->
-            </nav>
-            <!-- end nav -->
-            </header>
+  <section id="hederApp">
+    <sec_heder></sec_heder>
+  </section>
 
-            <main>
-              <h1 id="titulo">Preguntas frecuentes</h1>
-            <section class="faq-container">
-              
-              <section class="faq">
-                <h2>¿Cuáles son los destinos que ofrece su agencia de viajes?</h2>
-                <p>Nuestra agencia de viajes ofrece viajes a Cordoba, Salta, Mendoza y Santa Fe.</p>
-              </section>
-              <section class="faq">
-                <h2>¿Cómo puedo reservar un viaje con ustedes?</h2>
-                <p>Puede reservar un viaje con nosotros a través de nuestro sitio web o visitando nuestra oficina ubicada en Balcarce 50, C1064 CABA.</p>
-              </section>
-              <section class="faq">
-                <h2>¿Qué métodos de pago aceptan?</h2>
-                <p>Aceptamos efectivo, transferencia, débito y crédito.</p>
-              </section>
-              <section class="faq">
-                <h2>¿Ofrecen algún tipo de financiamiento?</h2>
-                <p>Sí, ofrecemos financiamiento a través de nuestro sitio web o en nuestra oficina.</p>
-              </section>
-              <section class="faq">
-                <h2>¿Cuáles son los horarios de atención al cliente?</h2>
-                <p>Nuestros horarios de atención al cliente son de lunes a viernes de 9am a 6pm y los sábados de 10am a 2pm.</p>
-              </section>
-              <section class="faq">
-                <h2>¿Cómo puedo cambiar mi reserva?</h2>
-                <p>Puede cambiar su reserva a través de nuestro sitio web o visitando nuestra oficina. Sin embargo, tenga en cuenta que se pueden aplicar cargos por cambios de reserva.</p>
-              </section>
-              <section class="faq">
-                <h2>¿Qué debo hacer si tengo un problema durante mi viaje?</h2>
-                <p>Puede contactar a nuestro servicio al cliente a través de nuestro sitio web o llamando a nuestro número de teléfono. Estaremos encantados de ayudarlo con cualquier problema que tenga durante su viaje.</p>
-              </section>
-              <section class="faq">
-                <h2>¿Qué incluye el precio de mi viaje?</h2>
-                <p>El precio de su viaje incluye alojamiento, transporte y actividades. Sin embargo, tenga en cuenta que algunos servicios adicionales pueden tener un costo adicional.</p>
-              </section>
-              <section class="faq">
-                <h2>Dedicatorias</h2>
-                <p>Este sitio web fue desarrollado por el grupo 20 de la comisión 23003 del curso Front End Python, dirigido por la profesora Denise Eichenblat, como parte del programa Codo a Codo 4.0. El mismo estuvo conformado por Jonatan Martínez, Cintia Cuevas, Pablo Moyano y Tomás Cornara.</p>
-                <a href="https://buenosaires.gob.ar/educacion/codo-codo-40"><img src="img/codoACodo.png" width="150px"></a>
-              </section>
-              <section class="faq">
-                <h2>¿Ofrecen seguro de viaje?</h2>
-                <p>Sí, ofrecemos seguro de viaje para nuestros clientes. Puede obtener más información sobre nuestro seguro de viaje en nuestra página web.</p>
-              </section>
-            </section>
-          </main>
+<main>
+    <h1 id="titulo">Preguntas frecuentes</h1>
+  <section class="faq-container">
+    
+    <section class="faq">
+      <h2>¿Cuáles son los destinos que ofrece su agencia de viajes?</h2>
+      <p>Nuestra agencia de viajes ofrece viajes a Córdoba, Salta, Mendoza y Santa Fe.</p>
+    </section>
+    <section class="faq">
+      <h2>¿Cómo puedo reservar un viaje con ustedes?</h2>
+      <p>Puede reservar un viaje con nosotros a través de nuestro sitio web o visitando nuestra oficina ubicada en Balcarce 50, C1064 CABA.</p>
+    </section>
+    <section class="faq">
+      <h2>¿Qué métodos de pago aceptan?</h2>
+      <p>Aceptamos efectivo, transferencia, débito y crédito.</p>
+    </section>
+    <section class="faq">
+      <h2>¿Ofrecen algún tipo de financiamiento?</h2>
+      <p>Sí, ofrecemos financiamiento a través de nuestro sitio web o en nuestra oficina.</p>
+    </section>
+    <section class="faq">
+      <h2>¿Cuáles son los horarios de atención al cliente?</h2>
+      <p>Nuestros horarios de atención al cliente son de lunes a viernes de 9am a 6pm y los sábados de 10am a 2pm.</p>
+    </section>
+    <section class="faq">
+      <h2>¿Cómo puedo cambiar mi reserva?</h2>
+      <p>Puede cambiar su reserva a través de nuestro sitio web o visitando nuestra oficina. Sin embargo, tenga en cuenta que se pueden aplicar cargos por cambios de reserva.</p>
+    </section>
+    <section class="faq">
+      <h2>¿Qué debo hacer si tengo un problema durante mi viaje?</h2>
+      <p>Puede contactar a nuestro servicio al cliente a través de nuestro sitio web o llamando a nuestro número de teléfono. Estaremos encantados de ayudarlo con cualquier problema que tenga durante su viaje.</p>
+    </section>
+    <section class="faq">
+      <h2>¿Qué incluye el precio de mi viaje?</h2>
+      <p>El precio de su viaje incluye alojamiento, transporte y actividades. Sin embargo, tenga en cuenta que algunos servicios adicionales pueden tener un costo adicional.</p>
+    </section>
+    <section class="faq">
+      <h2>Dedicatorias</h2>
+      <p>Este sitio web fue desarrollado por el grupo 20 de la comisión 23003 del curso Front End Python, dirigido por la profesora Denise Eichenblat, como parte del programa Codo a Codo 4.0. El mismo estuvo conformado por Jonatan Martínez, Cintia Cuevas, Pablo Moyano y Tomás Cornara.</p>
+      <a href="https://buenosaires.gob.ar/educacion/codo-codo-40"><img src="img/codoACodo.png" width="150px"></a>
+    </section>
+    <section class="faq">
+      <h2>¿Ofrecen seguro de viaje?</h2>
+      <p>Sí, ofrecemos seguro de viaje para nuestros clientes. Puede obtener más información sobre nuestro seguro de viaje en nuestra página web.</p>
+    </section>
+  </section>
+</main>
 
-    <footer>
-        <section id="redes">
-            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa"></i></a>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://www.pinterest.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        </section>
-        
-        <section id="subFooter">
-            <a href="https://github.com/JonatanMartinez1310" target="_blank">Jonatan Martínez</a>
-            <a href="https://github.com/Pettu93" target="_blank">Cintia Cuevas</a>
-            <a href="https://github.com/PabloDanielMoyano" target="_blank">Pablo Moyano</a>
-            <a href="https://github.com/TomasCornara" target="_blank">Tomas Cornara</a>
-        </section>
-        
-    </footer>
+<section id="footerApp">
+  <sec_footer></sec_footer>
+</section>
+
+<script src="./scripts/heder&footer.js"></script>
+
 </body>
 </html>
 
