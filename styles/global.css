@@ -291,3 +291,12 @@ footer {
       opacity: 1;
     }
   }
+
+  .temperatura {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: var(--colorTerciario);
+    position: absolute;
+  }
