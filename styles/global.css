@@ -41,13 +41,19 @@ header h1 {
     width: 500px;
 }
 
-.head h1 {
+#tituloPag {
+    text-decoration: none;
+}
+
+#tituloPag h1 {
     font-family: 'Gloria Hallelujah';
     color: white;
 }
 
-.head h1:hover {
-    transform: scale(1.02);
+#tituloPag:hover {
+    cursor: pointer;
+    text-decoration:underline;
+    color: white;
 }
 
 #menu {
