@@ -52,7 +52,7 @@ header h1 {
 
 #tituloPag:hover {
     cursor: pointer;
-    text-decoration:underline;
+    text-decoration:underline 3px;
     color: white;
 }
 
