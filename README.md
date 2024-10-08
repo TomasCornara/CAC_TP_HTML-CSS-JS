@@ -21,6 +21,8 @@ Turismo Andino es una página web diseñada para ofrecer a los usuarios la posib
 
 ## Preview
 
-![home](https://media.discordapp.net/attachments/673346179152609280/1110050884316057600/image.png?width=720&height=583)
+![home](https://i.postimg.cc/vBkwmGhh/desktop.png)
 
-![Destino Ejemplo](https://cdn.discordapp.com/attachments/673346179152609280/1110051104764461066/image.png)
+![Destino Ejemplo](https://i.postimg.cc/CLyVTLzL/destinos.png)
+
+![Mobile](https://i.postimg.cc/wxRdGsxG/mobile.png)
