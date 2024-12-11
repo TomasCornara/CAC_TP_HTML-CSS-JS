@@ -12,7 +12,6 @@
 
 - Jonatan Martínez
 - Cintia Cuevas
-- Pablo Moyano
 - Tomás Cornara
 
 ## Descripción del Proyecto
