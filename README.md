@@ -16,7 +16,7 @@
 
 ## Descripción del Proyecto
 
-Turismo Andino es una página web diseñada para ofrecer a los usuarios la posibilidad de descubrir y reservar viajes a las hermosas provincias de Salta, Córdoba, Mendoza y Santa Fe en Argentina. La web proporciona información sobre los destinos y un formulario de contacto, incluyendo lugares destacados y actividades.
+Turismo Andino es una página web diseñada con VUE y Bootstrap para ofrecer a los usuarios la posibilidad de descubrir y reservar viajes a las hermosas provincias de Salta, Córdoba, Mendoza y Santa Fe en Argentina. La web proporciona información sobre los destinos y un formulario de contacto, incluyendo lugares destacados y actividades.
 
 ## Preview
 
