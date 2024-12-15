@@ -1,6 +1,6 @@
 # Turismo Andino
 
-¡Bienvenidos al proyecto Turismo Andino! Este repositorio contiene el codigo de una página web que ofrece viajes dentro de Argentina a las provincias de Salta, Córdoba, Mendoza y Santa Fe. Fue desarrollado por el Grupo 20 del curso de Front End Python del programa "Codo a Codo 4.0". 
+¡Bienvenidos al proyecto Turismo Andino! Este repositorio contiene el codigo de una página web tipo SPA hecha con VUE.js y Bootstrap que ofrece viajes dentro de Argentina a las provincias de Salta, Córdoba, Mendoza y Santa Fe. Fue desarrollado por el Grupo 20 del curso de Front End Python del programa "Codo a Codo 4.0". 
 
 ## Tabla de Contenidos
 
@@ -16,7 +16,7 @@
 
 ## Descripción del Proyecto
 
-Turismo Andino es una página web diseñada con VUE y Bootstrap para ofrecer a los usuarios la posibilidad de descubrir y reservar viajes a las hermosas provincias de Salta, Córdoba, Mendoza y Santa Fe en Argentina. La web proporciona información sobre los destinos y un formulario de contacto, incluyendo lugares destacados y actividades.
+Turismo Andino es una página web diseñada para ofrecer a los usuarios la posibilidad de descubrir y reservar viajes a las hermosas provincias de Salta, Córdoba, Mendoza y Santa Fe en Argentina. La web proporciona información sobre los destinos y un formulario de contacto, incluyendo lugares destacados y actividades.
 
 ## Preview
 
